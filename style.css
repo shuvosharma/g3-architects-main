@@ -1,0 +1,151 @@
+*{
+    margin:10px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.logo-container{
+    
+  
+}
+
+.nav-container{
+    display: flex;
+    justify-content:space-around;
+}
+.items{
+    display: flex;
+    list-style: none;
+    
+}
+.item{
+margin-right: 10px;
+padding: 5px;
+}
+.header-container{
+    /* align-items: center
+    ; */
+    text-align: center;
+    margin: 30px;
+    padding-top: 30px;
+}
+.btn-header{
+    background-color:orange;
+    border: none;
+    border-radius: 8px;
+    width: 180px;
+    height: 64px;
+    margin-top: 10px;
+    font-family: Work sans-serif;
+    font-size: 20px;
+    color: #FFFFFF;
+    ;
+  
+}
+.btn-header:hover{
+    background-color: aqua;
+}
+.banner{
+    width: 100%;
+    height: 100vh;
+}
+/*  */
+.body{
+    display: flex;
+}
+.body-menu{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    
+}
+
+.text-color{
+    color: orange;
+    font-size: larger;
+    font-weight: 900;
+    
+}
+
+/*  */
+.body-details{
+    display: flex;
+}
+.border-left{
+    border-left: 5px solid orange;
+}
+.btn-details img {
+   width: 60vh;
+}
+.details-btn{
+    border: none;
+    width: 20vh;
+    height: 20vh;
+    background-color: orange;
+}
+/* menu */
+.div1{
+    border: 2px solid orange;
+    border-radius: 5px;
+    width: 200px;
+    height: 200px;
+   
+  
+
+}
+.icon-text{
+    font-size: large;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+.div1 img{
+    width: 10vh;
+}
+/*  */
+.div1{
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+
+/* animation */
+.div1:hover{
+    background-color: coral;
+    transform: rotate(360deg);
+    transition:5s;
+}
+
+.icon-container{
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+
+/* sponspors */
+.sponspors{
+    padding: 10px;
+    margin: 20px;
+    align-items: center;
+    text-align: center;
+}
+.sponsor-header{
+    padding: 20px;
+}
+.sponsor-body{
+    padding: 10px;
+}
+.sponspors-img{
+  
+}
+/* footer */
+.footer{
+    background-color: black;
+     color: wheat;
+     text-align: center;
+     width: 100%;
+     height: 100px;
+}
+
+
+
+/* Responsive */
+/* small */
